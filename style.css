@@ -1,5 +1,30 @@
-span {
-  background-color: #FAE3D9;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #E9E8E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-div {
-  background-color: #BBDED6; }
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-row {
+    font-size: 40px;
+    color: #313540;
+    margin-top: 4px;
+}
+
+.text-row-is-small {
+    font-size: 14px;
+    color: #bababa;
+    margin-top: 28px;
+}
+
+.main-icon {
+    width: 160px;
+    height: 160px;
+    opacity: 0.4;
+}
